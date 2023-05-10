@@ -43,7 +43,7 @@ export const PruebasComponent = () => {
                 <button onClick={cambiarFecha}>Cambiar fecha</button>
             </p>
 
-            {contador >= 20 && <AvisoComponent />}
+            {<AvisoComponent />}
         </div>
     );
 }
